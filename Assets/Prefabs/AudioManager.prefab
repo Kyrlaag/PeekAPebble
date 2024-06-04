@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4752527992953492913
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6909175469187611802}
+  - component: {fileID: 8694837359272508539}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6909175469187611802
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4752527992953492913}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.32672805, y: -0.20559669, z: -0.32445282}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8694837359272508539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4752527992953492913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bdaaf781b513f04b8a0060f55fad28a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: BansheeScream
+    clip: {fileID: 8300000, guid: dac1b9d91ee127148baa90cee432c7be, type: 3}
+    volume: 0.5
+    pitch: 1.3
+    loop: 0
+    source: {fileID: 0}
+  - name: BansheeTeleport
+    clip: {fileID: 8300000, guid: 7ef183a479aafe54da94fd19d6822e7a, type: 3}
+    volume: 0.5
+    pitch: 1.2
+    loop: 0
+    source: {fileID: 0}
+  - name: DemonChase
+    clip: {fileID: 8300000, guid: d04b5452037679a4abd502d75ac0d94b, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: WakeUp_1
+    clip: {fileID: 8300000, guid: c574dda873028164989b405f9f8a6a62, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: WakeUp_2
+    clip: {fileID: 8300000, guid: 1597bdbf381027747bb9d0be0585f903, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: RandomSFX_1
+    clip: {fileID: 8300000, guid: c1b0d76651cc980458a644cb92ec210c, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: RandomSFX_2
+    clip: {fileID: 8300000, guid: 84a9f2db228ceb44abeb11c7ca9152fb, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: RandomSFX_3
+    clip: {fileID: 8300000, guid: 9ac0ce89f99aafb4d85c17637292ac4d, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Footstep_1
+    clip: {fileID: 8300000, guid: d79a1977f59af3e4c86ec0db5c41b941, type: 3}
+    volume: 0.6
+    pitch: 1.2
+    loop: 0
+    source: {fileID: 0}
+  - name: Footstep_2
+    clip: {fileID: 8300000, guid: 0a87a1d83868e4b478d56c5a39ef321b, type: 3}
+    volume: 0.6
+    pitch: 0.9
+    loop: 0
+    source: {fileID: 0}
+  - name: Footstep_3
+    clip: {fileID: 8300000, guid: 4d16f4d2c211d814bad09d37e8944e44, type: 3}
+    volume: 0.6
+    pitch: 1.3
+    loop: 0
+    source: {fileID: 0}
